@@ -1,0 +1,575 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		585B61802DCCBC440095874C /* dev.ticketek.net.cer in Resources */ = {isa = PBXBuildFile; fileRef = 585B617F2DCCBC440095874C /* dev.ticketek.net.cer */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		585B61592DCCBA580095874C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 585B613A2DCCBA560095874C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 585B61412DCCBA560095874C;
+			remoteInfo = TEG_Code_Challenge;
+		};
+		585B61632DCCBA580095874C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 585B613A2DCCBA560095874C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 585B61412DCCBA560095874C;
+			remoteInfo = TEG_Code_Challenge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		585B61422DCCBA560095874C /* TEG_Code_Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TEG_Code_Challenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		585B61582DCCBA580095874C /* TEG_Code_ChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TEG_Code_ChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		585B61622DCCBA580095874C /* TEG_Code_ChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TEG_Code_ChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		585B617F2DCCBC440095874C /* dev.ticketek.net.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = dev.ticketek.net.cer; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		585B616A2DCCBA580095874C /* Exceptions for "TEG_Code_Challenge" folder in "TEG_Code_Challenge" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 585B61412DCCBA560095874C /* TEG_Code_Challenge */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		585B61442DCCBA560095874C /* TEG_Code_Challenge */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				585B616A2DCCBA580095874C /* Exceptions for "TEG_Code_Challenge" folder in "TEG_Code_Challenge" target */,
+			);
+			path = TEG_Code_Challenge;
+			sourceTree = "<group>";
+		};
+		585B615B2DCCBA580095874C /* TEG_Code_ChallengeTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TEG_Code_ChallengeTests;
+			sourceTree = "<group>";
+		};
+		585B61652DCCBA580095874C /* TEG_Code_ChallengeUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TEG_Code_ChallengeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		585B613F2DCCBA560095874C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		585B61552DCCBA580095874C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		585B615F2DCCBA580095874C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		585B61392DCCBA560095874C = {
+			isa = PBXGroup;
+			children = (
+				585B617F2DCCBC440095874C /* dev.ticketek.net.cer */,
+				585B61442DCCBA560095874C /* TEG_Code_Challenge */,
+				585B615B2DCCBA580095874C /* TEG_Code_ChallengeTests */,
+				585B61652DCCBA580095874C /* TEG_Code_ChallengeUITests */,
+				585B61432DCCBA560095874C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		585B61432DCCBA560095874C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				585B61422DCCBA560095874C /* TEG_Code_Challenge.app */,
+				585B61582DCCBA580095874C /* TEG_Code_ChallengeTests.xctest */,
+				585B61622DCCBA580095874C /* TEG_Code_ChallengeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		585B61412DCCBA560095874C /* TEG_Code_Challenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 585B616B2DCCBA580095874C /* Build configuration list for PBXNativeTarget "TEG_Code_Challenge" */;
+			buildPhases = (
+				585B613E2DCCBA560095874C /* Sources */,
+				585B613F2DCCBA560095874C /* Frameworks */,
+				585B61402DCCBA560095874C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				585B61442DCCBA560095874C /* TEG_Code_Challenge */,
+			);
+			name = TEG_Code_Challenge;
+			packageProductDependencies = (
+			);
+			productName = TEG_Code_Challenge;
+			productReference = 585B61422DCCBA560095874C /* TEG_Code_Challenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		585B61572DCCBA580095874C /* TEG_Code_ChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 585B61702DCCBA580095874C /* Build configuration list for PBXNativeTarget "TEG_Code_ChallengeTests" */;
+			buildPhases = (
+				585B61542DCCBA580095874C /* Sources */,
+				585B61552DCCBA580095874C /* Frameworks */,
+				585B61562DCCBA580095874C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				585B615A2DCCBA580095874C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				585B615B2DCCBA580095874C /* TEG_Code_ChallengeTests */,
+			);
+			name = TEG_Code_ChallengeTests;
+			packageProductDependencies = (
+			);
+			productName = TEG_Code_ChallengeTests;
+			productReference = 585B61582DCCBA580095874C /* TEG_Code_ChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		585B61612DCCBA580095874C /* TEG_Code_ChallengeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 585B61732DCCBA580095874C /* Build configuration list for PBXNativeTarget "TEG_Code_ChallengeUITests" */;
+			buildPhases = (
+				585B615E2DCCBA580095874C /* Sources */,
+				585B615F2DCCBA580095874C /* Frameworks */,
+				585B61602DCCBA580095874C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				585B61642DCCBA580095874C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				585B61652DCCBA580095874C /* TEG_Code_ChallengeUITests */,
+			);
+			name = TEG_Code_ChallengeUITests;
+			packageProductDependencies = (
+			);
+			productName = TEG_Code_ChallengeUITests;
+			productReference = 585B61622DCCBA580095874C /* TEG_Code_ChallengeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		585B613A2DCCBA560095874C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					585B61412DCCBA560095874C = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					585B61572DCCBA580095874C = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 585B61412DCCBA560095874C;
+					};
+					585B61612DCCBA580095874C = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 585B61412DCCBA560095874C;
+					};
+				};
+			};
+			buildConfigurationList = 585B613D2DCCBA560095874C /* Build configuration list for PBXProject "TEG_Code_Challenge" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 585B61392DCCBA560095874C;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 585B61432DCCBA560095874C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				585B61412DCCBA560095874C /* TEG_Code_Challenge */,
+				585B61572DCCBA580095874C /* TEG_Code_ChallengeTests */,
+				585B61612DCCBA580095874C /* TEG_Code_ChallengeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		585B61402DCCBA560095874C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				585B61802DCCBC440095874C /* dev.ticketek.net.cer in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		585B61562DCCBA580095874C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		585B61602DCCBA580095874C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		585B613E2DCCBA560095874C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		585B61542DCCBA580095874C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		585B615E2DCCBA580095874C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		585B615A2DCCBA580095874C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 585B61412DCCBA560095874C /* TEG_Code_Challenge */;
+			targetProxy = 585B61592DCCBA580095874C /* PBXContainerItemProxy */;
+		};
+		585B61642DCCBA580095874C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 585B61412DCCBA560095874C /* TEG_Code_Challenge */;
+			targetProxy = 585B61632DCCBA580095874C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		585B616C2DCCBA580095874C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TEG_Code_Challenge/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.reysayas.TEG-Code-Challenge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		585B616D2DCCBA580095874C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TEG_Code_Challenge/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.reysayas.TEG-Code-Challenge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		585B616E2DCCBA580095874C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		585B616F2DCCBA580095874C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		585B61712DCCBA580095874C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.reysayas.TEG-Code-ChallengeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TEG_Code_Challenge.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TEG_Code_Challenge";
+			};
+			name = Debug;
+		};
+		585B61722DCCBA580095874C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.reysayas.TEG-Code-ChallengeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TEG_Code_Challenge.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TEG_Code_Challenge";
+			};
+			name = Release;
+		};
+		585B61742DCCBA580095874C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.reysayas.TEG-Code-ChallengeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TEG_Code_Challenge;
+			};
+			name = Debug;
+		};
+		585B61752DCCBA580095874C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.reysayas.TEG-Code-ChallengeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TEG_Code_Challenge;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		585B613D2DCCBA560095874C /* Build configuration list for PBXProject "TEG_Code_Challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				585B616E2DCCBA580095874C /* Debug */,
+				585B616F2DCCBA580095874C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		585B616B2DCCBA580095874C /* Build configuration list for PBXNativeTarget "TEG_Code_Challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				585B616C2DCCBA580095874C /* Debug */,
+				585B616D2DCCBA580095874C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		585B61702DCCBA580095874C /* Build configuration list for PBXNativeTarget "TEG_Code_ChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				585B61712DCCBA580095874C /* Debug */,
+				585B61722DCCBA580095874C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		585B61732DCCBA580095874C /* Build configuration list for PBXNativeTarget "TEG_Code_ChallengeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				585B61742DCCBA580095874C /* Debug */,
+				585B61752DCCBA580095874C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 585B613A2DCCBA560095874C /* Project object */;
+}
