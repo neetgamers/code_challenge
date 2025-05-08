@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		585B61802DCCBC440095874C /* dev.ticketek.net.cer in Resources */ = {isa = PBXBuildFile; fileRef = 585B617F2DCCBC440095874C /* dev.ticketek.net.cer */; };
+		585B61942DCCC0410095874C /* NSObject-Rx in Frameworks */ = {isa = PBXBuildFile; productRef = 585B61932DCCC0410095874C /* NSObject-Rx */; };
+		585B61972DCCC0540095874C /* RxBlocking in Frameworks */ = {isa = PBXBuildFile; productRef = 585B61962DCCC0540095874C /* RxBlocking */; };
+		585B61992DCCC0540095874C /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 585B61982DCCC0540095874C /* RxCocoa */; };
+		585B619B2DCCC0540095874C /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = 585B619A2DCCC0540095874C /* RxRelay */; };
+		585B619D2DCCC0540095874C /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 585B619C2DCCC0540095874C /* RxSwift */; };
+		585B61A02DCCC05F0095874C /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 585B619F2DCCC05F0095874C /* SnapKit */; };
+		585B61A62DCCC90A0095874C /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 585B61A52DCCC90A0095874C /* CFNetwork.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +39,7 @@
 		585B61582DCCBA580095874C /* TEG_Code_ChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TEG_Code_ChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		585B61622DCCBA580095874C /* TEG_Code_ChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TEG_Code_ChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		585B617F2DCCBC440095874C /* dev.ticketek.net.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = dev.ticketek.net.cer; sourceTree = "<group>"; };
+		585B61A52DCCC90A0095874C /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -70,6 +78,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				585B61992DCCC0540095874C /* RxCocoa in Frameworks */,
+				585B61942DCCC0410095874C /* NSObject-Rx in Frameworks */,
+				585B61A62DCCC90A0095874C /* CFNetwork.framework in Frameworks */,
+				585B619D2DCCC0540095874C /* RxSwift in Frameworks */,
+				585B61A02DCCC05F0095874C /* SnapKit in Frameworks */,
+				585B619B2DCCC0540095874C /* RxRelay in Frameworks */,
+				585B61972DCCC0540095874C /* RxBlocking in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,6 +112,7 @@
 				585B61442DCCBA560095874C /* TEG_Code_Challenge */,
 				585B615B2DCCBA580095874C /* TEG_Code_ChallengeTests */,
 				585B61652DCCBA580095874C /* TEG_Code_ChallengeUITests */,
+				585B61A42DCCC90A0095874C /* Frameworks */,
 				585B61432DCCBA560095874C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -109,6 +125,14 @@
 				585B61622DCCBA580095874C /* TEG_Code_ChallengeUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		585B61A42DCCC90A0095874C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				585B61A52DCCC90A0095874C /* CFNetwork.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,6 +155,12 @@
 			);
 			name = TEG_Code_Challenge;
 			packageProductDependencies = (
+				585B61932DCCC0410095874C /* NSObject-Rx */,
+				585B61962DCCC0540095874C /* RxBlocking */,
+				585B61982DCCC0540095874C /* RxCocoa */,
+				585B619A2DCCC0540095874C /* RxRelay */,
+				585B619C2DCCC0540095874C /* RxSwift */,
+				585B619F2DCCC05F0095874C /* SnapKit */,
 			);
 			productName = TEG_Code_Challenge;
 			productReference = 585B61422DCCBA560095874C /* TEG_Code_Challenge.app */;
@@ -214,6 +244,11 @@
 			);
 			mainGroup = 585B61392DCCBA560095874C;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				585B61922DCCC0410095874C /* XCRemoteSwiftPackageReference "NSObject-Rx" */,
+				585B61952DCCC0540095874C /* XCRemoteSwiftPackageReference "RxSwift" */,
+				585B619E2DCCC05F0095874C /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 585B61432DCCBA560095874C /* Products */;
 			projectDirPath = "";
@@ -296,13 +331,17 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 83434VX55U;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TEG_Code_Challenge/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We needed your camera for scanning barcode.";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "We need your location to show nearby venues.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need your location to show nearby venues.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,9 +349,11 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.reysayas.TEG-Code-Challenge";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -323,13 +364,17 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 83434VX55U;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TEG_Code_Challenge/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We needed your camera for scanning barcode.";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "We need your location to show nearby venues.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need your location to show nearby venues.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -337,9 +382,11 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.reysayas.TEG-Code-Challenge";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -570,6 +617,66 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		585B61922DCCC0410095874C /* XCRemoteSwiftPackageReference "NSObject-Rx" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/RxSwiftCommunity/NSObject-Rx.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.2.2;
+			};
+		};
+		585B61952DCCC0540095874C /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.9.0;
+			};
+		};
+		585B619E2DCCC05F0095874C /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		585B61932DCCC0410095874C /* NSObject-Rx */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 585B61922DCCC0410095874C /* XCRemoteSwiftPackageReference "NSObject-Rx" */;
+			productName = "NSObject-Rx";
+		};
+		585B61962DCCC0540095874C /* RxBlocking */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 585B61952DCCC0540095874C /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxBlocking;
+		};
+		585B61982DCCC0540095874C /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 585B61952DCCC0540095874C /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		585B619A2DCCC0540095874C /* RxRelay */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 585B61952DCCC0540095874C /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxRelay;
+		};
+		585B619C2DCCC0540095874C /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 585B61952DCCC0540095874C /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+		585B619F2DCCC05F0095874C /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 585B619E2DCCC05F0095874C /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 585B613A2DCCBA560095874C /* Project object */;
 }

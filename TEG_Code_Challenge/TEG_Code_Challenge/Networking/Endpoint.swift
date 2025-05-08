@@ -24,6 +24,7 @@ protocol Endpoint {
 }
 
 extension Endpoint {
+    
     var urlRequest: URLRequest {
         if let queryItems = queryItems {
             var components = URLComponents(url: baseURL.appendingPathComponent(path), resolvingAgainstBaseURL: true)!

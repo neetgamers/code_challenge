@@ -17,7 +17,7 @@ enum NetworkError: Error {
     case custom(message:String)
     case unknown
     
-    var errorDescription: String? {
+    var errorDescription: String {
         switch self {
         case .noInternet:
             return "No internet connection"

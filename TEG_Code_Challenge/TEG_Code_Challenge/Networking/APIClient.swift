@@ -24,7 +24,7 @@ final class SecureAPIClient:NSObject, APIClient, URLSessionTaskDelegate {
                 throw NetworkError.serverError(statusCode: httpResponse.statusCode)
             }
             
-            //print("Result: \(String(data: data, encoding: .utf8) ?? "")")
+            print("Result: \(String(data: data, encoding: .utf8) ?? "")")
             
             return try JSONDecoder().decode(T.self, from: data)
         } catch let error as URLError {
